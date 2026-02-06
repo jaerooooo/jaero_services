@@ -310,4 +310,13 @@ input, textarea {
   }
 }
 
+@media (max-width: 900px) {
+  .logo {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
+
 
