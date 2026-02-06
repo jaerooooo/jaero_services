@@ -213,3 +213,101 @@ input, textarea {
   color: #aaa;
 }
 
+/* ============================= */
+/* RESPONSIVE – ALL DEVICES */
+/* ============================= */
+
+@media (max-width: 900px) {
+  /* HEADER */
+  header {
+    padding: 15px 25px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 8px 12px;
+  }
+
+  /* HERO */
+  .hero {
+    height: 85vh;
+    padding: 0 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 12px 28px;
+    font-size: 15px;
+  }
+
+  /* SECTIONS */
+  .section {
+    padding: 60px 20px;
+  }
+
+  /* SERVICES & PROJECTS */
+  .services-container,
+  .projects-container {
+    gap: 15px;
+  }
+
+  .project-card img {
+    height: 200px;
+  }
+
+  /* CONTACT FORM */
+  form {
+    padding: 25px 20px;
+  }
+
+  input,
+  textarea {
+    font-size: 15px;
+  }
+
+  /* FOOTER */
+  .main-footer {
+    padding: 50px 20px 20px;
+  }
+
+  .footer-container {
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-links a {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* EXTRA SMALL DEVICES */
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .messenger-float {
+    width: 50px;
+    height: 50px;
+  }
+
+  .messenger-float img {
+    width: 26px;
+  }
+}
+
+
